@@ -4,33 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-AU-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" />
     <title>Register Page</title>
+    <style>
+        body {
+            background-image: "codingFoundations/assignments/StaticRegisterPage/assets/IMG_20200903_185208.jpg";
+        }
+    </style>
 </head>
 <body>
     <header>
         <a href="#">About Us</a>
         <a href="#">Log In</a>
     </header>
-    <div>
+    <div class="container">
         <h1>Sign Up</h1>
         <form>
             <div>
-            <input type="email" />
+            <input type="email" placeholder="Email" name="email" required />
             </div>
             <div>
-            <input type="text" />
+            <input type="text" placeholder="Username" name="username" required/>
             </div>
             <div>
-            <input type="password" />
+            <input type="password" placeholder="Password" name=password required/>
             </div>
             <div>
-            <input type="password" />
-            </div>
+                <input type="password" placeholder="Confirm Password" name="confirmPassword" required />
+              </div>
             <div>
                 <button type="submit">Submit</button>
             </div>
 
         </form>
+        <footer>
+            <img src="./assets/undefined - Imgur (1).png" alt="Slack Icon" height="32" width="32" />
+            <img src="./assets/undefined - Imgur (2).png" alt="GitHub Icon" height="32" width="32" />
+            <img src="./assets/undefined - Imgur (3).png" alt="Instagram Icon" height="32" width="32" />
+            <img src="./assets/undefined - Imgur.png" alt="Slack Icon" height="32" width="32" />
+            <img src="./assets/undefined - fb.png" alt="Facebook Icon" height="32" width="32" />
+        </footer>
     </div>
 </body>
 </html>
